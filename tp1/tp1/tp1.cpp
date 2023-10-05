@@ -72,7 +72,7 @@ void exo1_3()
     std::vector<int> propositions(limite);
 
     // nb secret aléatoire entre [0; 100]
-    srand(time(NULL));
+    srand((unsigned int)time(NULL));
     nb_secret = (rand() % 100) + 1;
 
     std::cout << "Choix de la difficulte : Entrez 0 (Normal) ou 1 (Difficile)" << std::endl;
@@ -177,19 +177,42 @@ void exo1_5()
 
     std::cout << "Entrez votre numero insee :";
     std::cin >> num_insee;
-    // Todo, rajouté l'année de naissance ...
-    if (num_insee[0] == '1') 
+    if (num_insee[0] == '1')
     {
-        std::cout << "Vous etes un homme ...";
+        std::cout << "Vous etes un homme ne en 19" << num_insee[1] << num_insee[2]<< std::endl;
     }
     else
     {
-        std::cout << "Vous etes une femme ..."; 
+        std::cout << "Vous etes une femme nee en 19" << num_insee[1] << num_insee[2] << std::endl;
     }
 
     std::cout << "Entrer votre nom : ";
     std::cin >> nom;
-    // Todo, jouer en rajoutant des espaces ...
+
+    for (int i=0; i < nom.length(); i++) 
+    {
+        std::cout << " " << nom[i] ;
+    }
+    
+    std::cout << "\n";
+    for (int i = 0; i < nom.length(); i++) 
+    {
+        for(int j = 0; j < i; j++) 
+        {
+            std::cout << " ";
+        }
+        std::cout << nom[i];
+    }
+
+    std::cout << "\n";
+    for (int i = 0; i < nom.length(); i++)
+    {
+        for (int j = 0; j < i; j++)
+        {
+            std::cout << " ";
+        }
+        std::cout << nom[i] <<"\n";
+    }
 }
 
 
@@ -198,12 +221,12 @@ int main()
     std::cout << "Exercice 1.1 :" << std::endl;
     exo1_1();
     std::cout << "\nExercice 1.2 :" << std::endl;
-    exo1_2();
+    //exo1_2();
     std::cout << "\nExercice 1.3 :" << std::endl;
-    exo1_3();
+    //exo1_3();
     std::cout << "\nExercice 1.4 :" << std::endl;
-    exo1_4();
-    std::cout << "\nExercice 1.5 :" << std::endl; // Todo, finir l'exercice 5
+    //exo1_4();
+    std::cout << "\nExercice 1.5 :" << std::endl;
     //exo1_5(); 
 
     return EXIT_SUCCESS;
