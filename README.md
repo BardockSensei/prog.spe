@@ -1,10 +1,16 @@
-## Programmation de Spécialité - C++
+## *Programmation de Spécialité - C++*
 
-# Description 
-Université Lumière Lyon 2 - Portes des Alpes
-Cours de M1 Informatique 
+### *Description*
 
-# Architecture
-TD1 
-TD2 
-...
+*Université Lumière Lyon 2 - Campus "Portes des Alpes"*
+
+*Cours de M1 Informatique - Enseignant : M. Bertrand Kerautret* 
+
+*IDE : Utilisation de Visual Studio Community 2022*
+
+### *Architecture*
+
+*Tp1 : Introduction, prise en main (séance 1 et 2)*
+
+*Tp2 : ...*
+
