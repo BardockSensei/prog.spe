@@ -12,9 +12,11 @@
 ### *Architecture*
 
 *Tp1 : Introduction, prise en main (séance 1 et 2)*
-*état d'avancement à la fin des des deux premières séances : début exercice 4*
+
+*état d'avancement à la fin des des deux premières séances : début exercice 1.4*
 
 *Tp2 : Vecteurs et entrées/sorties de fichiers (séance 3 et 4)*
+
 *état d'avancement à la fin de la première séance: exercice 2, question 3*
 
 *Tp3 : ...*

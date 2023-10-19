@@ -2,7 +2,6 @@
     Programmation de spécialité - C++
     Séance 3 - 19/10/2023
     Auteur : Guillaume Hostache
-    état d'avancement : Exercice 2, question 3 (générer le .PPM avec toute les couleurs)
 */
 
 #include <iostream>
