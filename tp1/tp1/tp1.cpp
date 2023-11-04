@@ -1,5 +1,6 @@
 /*
     Programmation de spécialité - C++
+    Séance 1 - 28/09/2023
     Séance 2 - 05/10/2023
     Auteur : Guillaume Hostache
 */

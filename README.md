@@ -17,9 +17,14 @@
 
 *Tp2 : Vecteurs et entrées/sorties de fichiers (séance 3 et 4)*
 
-*état d'avancement à la fin de la première séance: exercice 2, question 3*
+*état d'avancement à la fin de la séance 3 : fin exercice 2.3*
 
-*Tp3 : ...*
+*Tp3 : Vecteurs et fonctions (révisions) (séance 5 et 6)*
+
+*état d'avancement à la fin de la séance 5 : début exercice 3.2*
+
+*Tp4 : ...*
+
 
 
 

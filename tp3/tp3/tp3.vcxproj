@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{87d9c932-7528-4ddd-90ff-c1f2f567d291}</ProjectGuid>
-    <RootNamespace>tp2</RootNamespace>
+    <ProjectGuid>{8984a56b-bf6b-470d-943b-45774456196d}</ProjectGuid>
+    <RootNamespace>tp3</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,17 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="exo2_1.cpp" />
-    <ClCompile Include="exo2_1.h" />
-    <ClCompile Include="exo2_2.cpp" />
-    <ClCompile Include="exo2_3.cpp" />
+    <ClCompile Include="calculatrice.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="tp3.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="exo2_2.h" />
-    <ClInclude Include="exo2_3.h" />
-    <ClInclude Include="stb_image.h" />
-    <ClInclude Include="stb_image_write.h" />
+    <ClInclude Include="calculatrice.h" />
+    <ClInclude Include="tp3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
