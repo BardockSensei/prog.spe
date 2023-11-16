@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include <string>
 
@@ -17,5 +18,11 @@ public:
 
     void operator++();
 
-    friend std::ostream& operator<<(std::ostream& os, const Personnage& perso);
+    // Question n°9
+    //std::ostream& operator<<(std::ostream& os, const Personnage& perso);
+
+    void changeVie(int vie);
+
+    //Destructeur de la classe
+    //~Personnage();
 };

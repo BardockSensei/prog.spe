@@ -22,6 +22,6 @@
 
 *Tp4 : Programmation Objet (séance 5 et 6)*
 
-*Tp5 : ... (séance 6 ...)*
+*Tp5 : Programmation Objet - Mini Jeu ASCII Casse Brique (séance 6 et 7)*
 
-*Tp6: ...*
+*Tp6: ... (séance ...)*
